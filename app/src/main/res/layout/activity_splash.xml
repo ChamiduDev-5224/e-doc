@@ -28,6 +28,18 @@
         app:layout_constraintBottom_toTopOf="@+id/splash_logo"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintHorizontal_bias="1" />
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expert advice anytime, anywhere."
+        android:textSize="10pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="160dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
